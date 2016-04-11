@@ -10,6 +10,6 @@ int main(){
 }
 int bunnyEars2(int y){
 	if(y==0) return 0;
-	if(y%2==0) return 3 + bunnyEars2(y-1);
+	if(y%2==0) return 3 + bunnyEars2(y-1); // ako je paran onda je 3 inace je 2
 	else return 2 + bunnyEars2(y-1); 
 }
